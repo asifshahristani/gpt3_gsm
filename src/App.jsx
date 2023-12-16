@@ -1,7 +1,15 @@
 import React from "react";
 
+import { Article, Brand } from "./components";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <Article />
+      <Brand />
+      App
+    </div>
+  );
 };
 
 export default App;
